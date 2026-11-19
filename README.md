@@ -8,6 +8,7 @@ Play: open `index.html` in a browser. No build step, no dependencies.
 - `index.html`: the page, the score line and the start screen.
 - `game.js`: the game loop, the fireflies, catching, the night timer, the best score.
 - `style.css`: the look.
+- `assets/meadow-night.png`: the night meadow background (generated with Higgsfield).
 
 ## Notes
 - Who it is for: people who want a two-minute game on a break, on desktop.
