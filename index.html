@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Firefly Jar</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Firefly Jar</h1>
+      <p class="hud"><span id="caught">0</span> caught · <span id="time">60</span>s until dawn · best <span id="best">0</span></p>
+    </header>
+    <canvas id="field" width="720" height="440" aria-label="A dark meadow with fireflies"></canvas>
+    <div id="overlay" class="overlay">
+      <h2 id="overlay-title">Catch the night</h2>
+      <p id="overlay-text">Click the fireflies before dawn. Bright ones are worth more, but they are faster.</p>
+      <button id="start">Start</button>
+    </div>
+  </main>
+  <script src="game.js"></script>
+</body>
+</html>
